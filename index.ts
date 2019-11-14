@@ -21,7 +21,7 @@ function reversed2(str) {
 function reversed3(str) {
    return str.split('').reduce((rev, char) => {
      return char + rev;
-   }, '')
+   }, '');
 }
 
 let result = reversed3(strInput);
